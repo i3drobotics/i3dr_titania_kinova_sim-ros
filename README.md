@@ -35,3 +35,13 @@ catkin_make
 or
 catkin build
 ```
+
+## Run
+Launch simulated kinova and titania using gazebo
+```
+roslaunch i3dr_ur10 kinova_titania.launch
+```
+Once loaded use Moveit to control the robot and map it's surroundings
+```
+rosrun i3dr_ur10 kinova_move_joints_map.py
+```
