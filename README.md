@@ -29,6 +29,11 @@ To install package dependences use rodep:
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
+Install Gazebo
+```
+sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+```
+
 Build using catkin (tested with catkin_make and catkin_build):
 ```
 catkin_make
